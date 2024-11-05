@@ -1,0 +1,105 @@
+/* --------------------------------------------------------------------------------
+                                Common
+-------------------------------------------------------------------------------- */
+::selection{background-color:#1565C0;color:#fff}
+::-moz-selection{background-color:#1565C0;color:#fff}
+body{overflow-x:hidden;font-family:'Encode Sans',sans-serif;font-size:16px;line-height:1.8;
+    font-weight:400;color:#333}
+a,
+a:focus,
+a:hover{transition:.6s;outline:0;text-decoration:none}
+img{width:100%}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{font-family:'Averia Sans Libre',cursive}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{margin:0 0 15px}
+p {}
+ol,
+ul{padding:0;margin:0}
+li{list-style-type:none}
+button:active,
+button:focus{outline:0;box-shadow:none}
+.heading{margin-bottom:80px}
+.heading h2{margin:0;display:inline-block;font-size:60px;text-transform:uppercase;font-weight:700;
+    position:relative;width:300px}
+.heading h2:after{content:'';width:320px;height:190px;position:absolute;top:50%;right:-100px;
+    border:10px solid rgba(21,101,192,.3);transform:translateY(-50%);z-index:-1}
+.heading h2 span{display:block;color:#2196F3}
+/* --------------------------------------------------------------------------------
+                                Bootstrap Edit
+-------------------------------------------------------------------------------- */
+.btn{font-family:'Averia Sans Libre',cursive;padding:10px 15px;font-size:16px;font-weight:400;
+    line-height:1.5;border-radius:0;text-transform:capitalize;letter-spacing:2px}
+.btn,
+.btn:focus,
+.btn:active,
+.btn:hover{outline:0;box-shadow:none;border:none;transition:.6s}
+.btn_1{background-color:#1565C0;color:#fff}
+.btn_1:active,
+.btn_1:focus,
+.btn_1:hover{color:#333;background-color:#2196F3}
+.form-control{padding:10px 15px;font-size:16px;line-height:1.5;border-radius:0;color:#333}
+.form-control:focus{box-shadow:none;border-color:#1565C0}
+.navbar-toggler-icon{background-image:url(../images/toggle.svg)}
+/* --------------------------------------------------------------------------------
+                                Top Bar
+-------------------------------------------------------------------------------- */
+#cs_top_bar{padding:10px 0}
+#cs_top_bar .grid_left {}
+#cs_top_bar .logo_sec{display:block}
+#cs_top_bar .logo_sec a{display:inline-block}
+#cs_top_bar .logo_sec a img {}
+#cs_top_bar .logo_sec a span{line-height:1;font-size:30px;font-family:'Averia Sans Libre',cursive;
+    text-transform:uppercase;color:#1565c0}
+#cs_top_bar .grid_right{text-align:right}
+#cs_top_bar .grid_right ul {}
+#cs_top_bar .grid_right ul li{display:inline-block;margin-left:15px;position:relative;padding-left:40px}
+#cs_top_bar .grid_right ul li .icon_sec{width:30px;height:30px;line-height:30px;position:absolute;
+    left:5px;top:5px;text-align:center;font-size:20px;background-color:#1565C0;color:#fff}
+#cs_top_bar .grid_right ul li .icon_sec i {}
+#cs_top_bar .grid_right ul li .details_sec{text-align:left;font-size:12px;line-height:1.8}
+#cs_top_bar .grid_right ul li .details_sec span{display:block}
+#cs_top_bar .grid_right ul li .details_sec span a{font-weight:700;color:#1565c0}
+#cs_top_bar .grid_right ul li .details_sec span a:hover {}
+/* --------------------------------------------------------------------------------
+                                Menu
+-------------------------------------------------------------------------------- */
+#cs_nav{position:relative;padding:10px 0;background-color:#242424}
+#cs_nav #cs_menu .nav-link{color:#fff;background-color:transparent;text-transform:uppercase;
+    font-weight:400;padding:10px 15px;font-size:14px;letter-spacing:1px}
+#cs_nav #cs_menu .nav-item.active .nav-link,#cs_nav #cs_menu .nav-link:hover{color:#1565C0;
+    background-color:transparent}
+/* --------------------------------------------------------------------------------
+                                Footer
+-------------------------------------------------------------------------------- */
+#cs_footer{background-color:#242424;padding-top:100px}
+#cs_footer .f_widget{margin-bottom:50px;color:#999;font-size:14px}
+#cs_footer .f_widget h3{font-size:20px;color:#2196F3}
+#cs_footer .about_widget .f_logo{margin-bottom:30px}
+#cs_footer .about_widget .f_logo a{display:inline-block}
+#cs_footer .about_widget .f_logo a span{line-height:1;font-size:30px;font-family:'Averia Sans Libre',cursive;
+    text-transform:uppercase;color:#fff}
+#cs_footer .f_social {}
+#cs_footer .f_social li{display:inline-block}
+#cs_footer .f_social li a{display:block;font-size:20px;padding-right:10px;color:#999}
+#cs_footer .f_social li a:hover{color:#90CAF9}
+#cs_footer .contact_widget a{display:block;color:#999}
+#cs_footer .contact_widget a:hover{color:#90CAF9}
+#cs_footer .contact_widget a span{color:#fff;margin-right:5px}
+#cs_footer .link_widget .list li {margin-bottom:5px}
+#cs_footer .link_widget .list li a{color:#999;text-transform:capitalize}
+#cs_footer .link_widget .list li a:hover{color:#90CAF9}
+#cs_footer .news_widget form {}
+#cs_footer .news_widget form .form-control{margin-bottom:10px;border:1px solid #393939;
+    background-color:transparent;color:#999}
+#cs_footer .copyright_inner{border-top:1px solid #393939;padding:30px 0;text-align:center}
+#cs_footer .copyright_inner p{margin-bottom:0;font-size:14px;color:#999}

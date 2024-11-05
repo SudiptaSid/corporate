@@ -1,0 +1,94 @@
+/* --------------------------------------------------------------------------------
+                                    Banner
+-------------------------------------------------------------------------------- */
+#cs_banner{background-image:url(../images/bg-1.svg);background-size:cover;
+	background-position:bottom;padding-bottom:100px;height:85vh}
+#cs_banner .caption{position:relative;max-width:600px;margin:auto;
+	padding:100px 0 100px 20px}
+#cs_banner .caption:after{content:'';width:100%;height:300px;
+	border:10px solid rgba(0,0,0,.15);position:absolute;top:50%;
+	right:-100%;z-index:-1;transform:translateY(-50%) translateX(-50%)}
+#cs_banner .caption h1{font-size:56px;line-height:1;text-transform:capitalize;
+	margin-bottom:20px;font-weight:400}
+#cs_banner .caption h1 span{font-size:70px;text-transform:uppercase;
+	letter-spacing:15px;color:#fff;text-shadow:2px 1px 8px rgba(0,0,0,.6);
+	display:block}
+#cs_banner .caption p{font-size:20px;text-transform:capitalize;
+	font-weight:300;letter-spacing:2px;margin-bottom:20px}
+#cs_banner .caption a{text-transform:uppercase;color:#333;letter-spacing:1px}
+#cs_banner .caption a i{color:#333;transition:.6s}
+#cs_banner .caption a:hover i{padding-left:10px;color:#1565C0}
+#cs_banner .owl-dots{margin:0;position:absolute;right:0;top:50%;transform:translateY(-50%)}
+#cs_banner .owl-dots .owl-dot{display:block}
+#cs_banner .owl-dots .owl-dot span{width:20px;height:20px;background-color:transparent;border:2px solid #fff}
+#cs_banner .owl-dots .owl-dot.active span{border-color:#fff;background-color:#fff}
+/* --------------------------------------------------------------------------------
+                                    About Us
+-------------------------------------------------------------------------------- */
+#cs_about{padding-bottom:80px}
+#cs_about .grid_left {}
+#cs_about .grid_left .heading{}
+#cs_about .grid_left p {}
+#cs_about .grid_right {}
+#cs_about .grid_right .owl-dots{margin:0;position:absolute;bottom:0;left:50%;transform:translateX(-50%)}
+#cs_about .grid_right .owl-dots .owl-dot{}
+#cs_about .grid_right .owl-dots .owl-dot span{background-color:#2196F3}
+#cs_about .grid_right .owl-dots .owl-dot.active span{background-color:#fff}
+/* --------------------------------------------------------------------------------
+                                    Our Service
+-------------------------------------------------------------------------------- */
+#cs_service{padding:100px 0;position:relative;z-index:4;background-size:cover;background-position:center center}
+#cs_service:before{content:'';width:45%;height:100%;position:absolute;background:rgba(52,46,54,.9);
+	top:0;z-index:-1}
+#cs_service .grid_left{padding-left:100px;color:#fff}
+#cs_service .grid_left .heading h2:after{border:10px solid rgba(255,255,255,.3)}
+#cs_service .grid_right {}
+#cs_service .intro_sec{padding:50px 0 50px 100px;background-size:cover}
+#cs_service .intro_sec .items_sec{margin-bottom:30px}
+#cs_service .items_sec figure {}
+#cs_service .items_sec figure .img_sec{margin-bottom:10px}
+#cs_service .items_sec figure .img_sec img{width:50px}
+#cs_service .items_sec figure figcaption {}
+#cs_service .items_sec figure figcaption h3{text-transform:capitalize;position:relative;padding-bottom:5px}
+#cs_service .items_sec figure figcaption h3:after{content:'';width:50px;height:2px;background-color:#90CAF9;
+	position:absolute;bottom:0;left:0}
+#cs_service .items_sec figure figcaption p{margin-bottom:0;padding-right:100px;color:#6f6d70}
+/* --------------------------------------------------------------------------------
+                                    Portfolio
+-------------------------------------------------------------------------------- */
+#cs_portfolio {min-height:600px}
+#cs_portfolio .grid_left{padding-top:100px;padding-left:100px}
+#cs_portfolio .grid_left .btn_secs{text-align:center}
+#cs_portfolio .grid_left .btn_secs p {}
+#cs_portfolio .grid_left .btn_secs p:last-child{margin-bottom:0}
+#cs_portfolio .grid_left .btn_secs p .filter-button{font-family:'Averia Sans Libre',cursive;background:0 0;
+	border:none;text-transform:uppercase;font-size:18px;color:#999;font-weight:400;letter-spacing:2px;
+	cursor:pointer;padding:0;transition:.6s}
+#cs_portfolio .grid_left .btn_secs p .filter-button:hover,
+#cs_portfolio .grid_left .btn_secs p .filter-button:active,
+#cs_portfolio .grid_left .btn_secs p .filter-button:focus{color:#1565C0}
+#cs_portfolio .grid_right{padding-right:0}
+#cs_portfolio .grid_right ul{display:flex;flex-wrap:wrap}
+#cs_portfolio .grid_right ul li{flex-basis:25%}
+#cs_portfolio .grid_right ul li .items_port{position:relative}
+#cs_portfolio .grid_right ul li .items_port .hover_sec{position:absolute;width:100%;height:100%;top:0;left:0;
+	background-color:rgba(0,0,0,.56);transition:.6s;transform:scale(0)}
+#cs_portfolio .grid_right ul li:hover .items_port .hover_sec{transform:scale(1)}
+#cs_portfolio .grid_right ul li .items_port .hover_sec .btn_1{position:absolute;top:50%;left:50%;
+	transform:translateX(-50%) translateY(-50%)}
+/* --------------------------------------------------------------------------------
+                                    Get In Touch
+-------------------------------------------------------------------------------- */
+#cs_get_touch{padding:100px 0;position:relative;z-index:4;background-size:cover;background-position:center center}
+#cs_get_touch:before{content:'';width:45%;height:100%;position:absolute;background:rgba(30,30,30,.5);
+	top:0;right:0;z-index:-1}
+#cs_get_touch .grid_left{padding-right:100px}
+#cs_get_touch .grid_left .form-control{background-color:transparent;border:none;border-bottom:1px solid #fff}
+#cs_get_touch .grid_left .form-control::placeholder{color:#fff;text-transform:capitalize}
+#cs_get_touch .grid_left .footer_btn{text-align:right}
+#cs_get_touch .grid_left .footer_btn .btn_1{width:150px}
+#cs_get_touch .grid_left .footer_btn .btn_1:after{content:"\f178";font:normal normal normal 14px/1 FontAwesome;
+	padding-left:5px;transition:.6s;color:#333}
+#cs_get_touch .grid_left .footer_btn .btn_1:hover::after{padding-left:15px}
+#cs_get_touch .grid_right{padding-left:100px;color:#fff}
+#cs_get_touch .grid_right .heading h2:after{border:10px solid rgba(129,129,129,.3)}

@@ -1,0 +1,28 @@
+bootstrap-4.0.0
+font-awesome-4.7.0
+owl-carousel-2.2.1
+jquery.min-3.3.1
+/* --------------------------------------------------------------------------------
+										Heading
+-------------------------------------------------------------------------------- */
+
+font-family: 'Averia Sans Libre', cursive; 400 / 700
+
+font-family: 'Encode Sans', sans-serif; 300 / 400 / 700 / 900
+
+
+
+D Blue ---- 1565C0
+M Blue ---- 2196F3
+L Blue ---- 90CAF9
+
+
+Top Bar ---- *
+Menu ---- *
+Banner ---- *
+About ---- *
+Services ---- *
+Our Projects ---- *
+Our Team
+Get In Touch ---- *
+Footer ---- *

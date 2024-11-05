@@ -1,0 +1,196 @@
+/* ------------------------ Max Width 1366px ------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ Max Width 1280px ------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ Max Width 1080px ------------------------ */
+@media (max-width: 1080px) {
+
+}
+/* ------------------------ Max Width 1024px ------------------------ */
+@media (max-width: 1024px) {
+
+}
+/* ------------------------ Max Width 966px ------------------------ */
+@media (max-width: 966px) {
+
+}
+/* ------------------------ Max Width 853px ------------------------ */
+@media (max-width: 853px) {
+
+}
+/* ------------------------ Max Width 800px ------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ Max Width 768px ------------------------ */
+@media (max-width: 768px) {
+
+}
+/* ------------------------ Max Width 736px ------------------------ */
+@media (max-width: 736px) {
+body{font-size:14px}
+.btn{font-size:14px}
+.form-control{font-size:14px}
+.heading{margin-bottom:50px}
+.heading h2{font-size:40px}
+.heading h2:after{width:250px;height:150px;right:0;transform:translateY(-50%)}
+#cs_top_bar .logo_sec{text-align:center;margin-bottom:10px}
+#cs_top_bar .grid_right ul{text-align:center}
+#cs_nav{position:absolute;width:100%;z-index:9}
+#cs_banner{height:65vh}
+#cs_banner .caption{padding-left:0;max-width:550px}
+#cs_banner .caption:after{width:80%;height:240px;right:-110%;transform:translateY(-50%) translateX(0)}
+#cs_banner .caption h1{font-size:36px;margin-bottom:10px}
+#cs_banner .caption h1 span{font-size:50px;letter-spacing:5px}
+#cs_banner .caption p{font-size:18px;margin-bottom:10px}
+#cs_banner .owl-dots .owl-dot span{width:10px;height:10px}
+#cs_about{padding-top:40px;padding-bottom:40px}
+#cs_about .owl-carousel .owl-item img{display:block;width:50%;margin:auto}
+#cs_service:before{display:none}
+#cs_service .intro_sec{padding-left:50px;padding-right:50px}
+#cs_service .items_sec figure figcaption h3{font-size:20px}
+#cs_service .items_sec figure figcaption p{padding-right:0}
+#cs_portfolio .grid_left{padding-left:15px}
+#cs_portfolio .grid_left .heading{padding-left:100px}
+#cs_portfolio .grid_left .btn_secs p{margin:0;display:inline-block}
+#cs_portfolio .grid_left .btn_secs p .filter-button{font-size:14px;padding:10px 5px}
+#cs_portfolio .grid_right{padding-left:0}
+#cs_get_touch{padding:50px 0px}
+#cs_get_touch:before{display:none}
+#cs_get_touch .row{flex-direction:column-reverse}
+#cs_get_touch .grid_left{padding-right:15px}
+#cs_get_touch .grid_right{padding-left:15px}
+#cs_get_touch .grid_right .heading h2:after{border:10px solid rgba(191,191,191,.3)}
+#cs_footer{padding-top:50px}
+#cs_footer .about_widget .f_logo {
+    margin-bottom: 10px;
+}
+#cs_footer .f_widget {
+	margin-bottom:20px;
+}
+}
+/* ------------------------ Max Width 732px ------------------------ */
+@media (max-width: 732px) {
+
+}
+/* ------------------------ Max Width 720px ------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ Max Width 690px ------------------------ */
+@media (max-width: 690px) {
+
+}
+/* ------------------------ Max Width 667px ------------------------ */
+@media (max-width: 667px) {
+#cs_portfolio .grid_right ul li {
+    flex-basis: 33.33%;
+}
+}
+/* ------------------------ Max Width 640px ------------------------ */
+@media (max-width: 640px) {
+
+}
+/* ------------------------ Max Width 603px ------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ Max Width 600px ------------------------ */
+@media (max-width: 600px) {
+
+}
+/* ------------------------ Max Width 598px ------------------------ */
+@media (max-width: 598px) {
+#cs_banner .caption {
+    max-width: 500px;
+}
+#cs_banner .caption:after {
+    width: 60%;
+    height: 200px;
+    right: -90%;
+}
+}
+/* ------------------------ Max Width 568px ------------------------ */
+@media (max-width: 568px) {
+
+}
+/* ------------------------ Max Width 533px ------------------------ */
+@media (max-width: 533px) {
+
+}
+/* ------------------------ Max Width 480px ------------------------ */
+@media (max-width: 480px) {
+.heading h2 {
+	width:250px;
+}
+.heading h2:after {
+    width: 210px;
+    height: 140px;
+}
+#cs_banner .caption {
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: unset;
+}
+#cs_banner .caption:after {
+    width: 100%;
+    right: -150%;
+}
+#cs_banner .caption h1 {
+    font-size: 26px;
+}
+#cs_banner .caption h1 span {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#cs_banner .caption p {
+    font-size: 14px;
+    font-weight: 400;
+}
+#cs_service .grid_left {
+    padding-left: 15px;
+}
+#cs_service .intro_sec {
+	padding:50px 20px;
+}
+#cs_service .intro_sec .items_sec {
+    margin-bottom: 20px;
+}
+#cs_portfolio .grid_left .heading {
+    padding-left: 0;
+}
+#cs_portfolio .grid_right ul li {
+    flex-basis: 50%;
+}
+}
+/* ------------------------ Max Width 414px ------------------------ */
+@media (max-width: 414px) {
+
+}
+/* ------------------------ Max Width 412px ------------------------ */
+@media (max-width: 412px) {
+
+}
+/* ------------------------ Max Width 384px ------------------------ */
+@media (max-width: 384px) {
+#cs_banner .caption:after {
+    width: 50%;
+    right: 0%;
+}
+}
+/* ------------------------ Max Width 375px ------------------------ */
+@media (max-width: 375px) {
+
+}
+/* ------------------------ Max Width 360px ------------------------ */
+@media (max-width: 360px) {
+
+}
+/* ------------------------ Max Width 320px ------------------------ */
+@media (max-width: 320px) {
+
+}
